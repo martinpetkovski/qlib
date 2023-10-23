@@ -50,7 +50,7 @@ inline uint32_t quremap_value(const uint32_t low1, const uint32_t high1, const u
 }
 
 inline uint8_t qlerp(const uint8_t a, const uint8_t b, const float f) {
-    return (uint8_t)(a + (uint8_t)(f * (float)(b - a)));
+    return a + (uint8_t)(f * (float)(b - a));
 }
 
 inline float qclamp(const float n, const float lower, const float upper) {
