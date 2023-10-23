@@ -1,0 +1,10 @@
+# Ignore all files
+*
+
+# Include specific file types
+!*.h
+!*.c
+!*.md
+!*.clang-format
+!*.gitattributes
+!*.gitignore
